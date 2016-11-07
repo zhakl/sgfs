@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/jquery1.42.min.js"></script>
+    <script type="text/javascript" src="js/jquery.Slide.2.1.1.js"></script>
+    <script  src="js/script.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/base.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!-- top --->
+<div class="header" id="01">
+    <div class="head_m clearfix">
+        <div class="logo">
+            <a href="#"><img src="images/logo.jpg" width="242" height="89" alt="logo"> </a>
+        </div>
+        <div class="ind_top">
+            <ul>
+                <li class="inli"><a class="active" href="index.html">首页</a></li>
+                <li class="inli"><a href="gk.html">学校概况</a></li>
+                <li class="inli"><a href="zhuanye.html">专业介绍</a></li>
+                <li class="inli"><a href="shizi.html">师资力量</a></li>
+                <li class="inli"><a href="about.html">联系我们</a></li>
+            </ul>
+            <span class="form">
+                <input type="text" class="indip" ><input type="button" class="indip1" value="搜索">
+            </span>
+        </div>
+    </div>
+</div>
+<!-- top --->
+
+<!--lunbo-->
+<div class="focusBox">
+    <ul class="pic">
+        <li style="background:url(images/b1.jpg) no-repeat center top;"><a href="#" ></a></li>
+        <li style="background:url(images/b2.jpg) no-repeat center top;"><a href="#" ></a></li>
+        <li style="background:url(images/b3.jpg) no-repeat center top;"><a href="#" ></a></li>
+    </ul>
+    <ul class="hd">
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+<script type="text/javascript">
+    /*鼠标移过，左右按钮显示*/
+    jQuery(".focusBox").hover(function(){ jQuery(this).find(".prev,.next").stop(true,true).fadeTo("show",0.2) },function(){ jQuery(this).find(".prev,.next").fadeOut() });
+    /*SuperSlide图片切换*/
+    jQuery(".focusBox").slide({ mainCell:".pic",effect:"fold", autoPlay:true, delayTime:600, trigger:"click"});
+</script>
+<!--lunbo-->
+<div class="jump">
+    <div class="jump_m">
+        <p class="jump_p">今天我以学校为荣,明天学校将以我为傲;</p>
+        <p class="jump_p1">这里不是伟人殿堂,但这却是伟人的摇篮.</p>
+        <p class="jump_p2"></p>
+        <a class="open" href="#contents" ></a>
+    </div>
+</div>
+<div class="vis" id="contents">
+    <div class="part2">
+        <div class="part2_m clearfix">
+            <p>立即开启免费试听课</p>
+            <a>
+                现在预约
+            </a>
+        </div>
+    </div>
+    <div class="partm3">
+        <div class="part3">
+            <div class="part3_m">
+                <p><span>授课现场</span></p>
+            </div>
+        </div>
+        <div class="part4 clearfix">
+            <div class="bigimg">
+                <div><img class="bbi" src="images/img11.jpg" width="720" height="748"> </div>
+                <ul class="smimg">
+                    <li> <img src="images/img11.jpg" width="228" height="243"> </li>
+                    <li> <img src="images/img01.jpg" width="228" height="243"> </li>
+                    <li> <img src="images/img11.jpg" width="228" height="243"> </li>
+                    <li> <img src="images/img11.jpg" width="228" height="243"> </li>
+                    <li> <img src="images/img11.jpg" width="228" height="243"> </li>
+                    <li> <img src="images/img11.jpg" width="228" height="243"> </li>
+                </ul>
+            </div>
+            <div class="b_b">
+                <div class="ykzx">
+                    <h2><p>艺考资讯</p><a>+ 更多内容</a></h2>
+                    <ul>
+                        <li><p><a href="#">2015戒毕业生艺术专业考试情况</a> </p><i> 2015-12-30</i></li>
+                        <li><p><a href="#">2015戒毕业生艺术专业考试情况</a> </p><i> 2015-12-30</i></li>
+                        <li><p><a href="#">2015戒毕业生艺术专业考试情况</a> </p><i> 2015-12-30</i></li>
+                        <li><p><a href="#">2015戒毕业生艺术专业考试情况</a> </p><i> 2015-12-30</i></li>
+                        <li><p><a href="#">2015戒毕业生艺术专业考试情况</a> </p><i> 2015-12-30</i></li>
+                    </ul>
+                </div>
+                <div class="youku">
+                    <embed src="http://player.youku.com/player.php/Type/Folder/Fid/26097020/Ob/1/sid/XMTQyMTkzNzkyOA==/v.swf" quality="high" width="600" height="335" align="middle" allowScriptAccess="always" allowFullScreen="true" mode="transparent" type="application/x-shockwave-flash"></embed>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="part5">
+        <div class="part5_m">
+            <a class="left"></a>
+            <a class="right"></a>
+            <div class="lunbo">
+
+                <ul class="pat_ul clearfix">
+                    <li><img src="images/img07.jpg" width="280" height="194" alt="1">
+                        <p>爱在阳光军营里</p>
+                    </li>
+                    <li><img src="images/img07.jpg" width="280" height="194" alt="1">
+                        <p>爱在阳光军营里</p>
+                    </li>
+                    <li><img src="images/img07.jpg" width="280" height="194" alt="1">
+                        <p>爱在阳光军营里</p>
+                    </li>
+                    <li><img src="images/img07.jpg" width="280" height="194" alt="1">
+                        <p>爱在阳光军营里</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div class="part6">
+        <div class="part6_m">
+            <div class="llo"><img src="images/img13.png" width="172" height="58" alt="1"/></div>
+            <ul>
+            <li class="clearfix">
+                <p class="par_p">中国-深圳-宝安区</p>
+                <div class="par_p1">
+                    <p class="par_p1_i2">咨询电话：0755-27514166</p>
+                    <p class="par_p1_i">0755-27514266</p>
+                    <p class="par_p1_i1">0755-27514366</p>
+                </div>
+                <p class="par_p2" id="do_">总部地址：<span>深圳市宝安21区宝安电视台后座4栋三-四楼</span></p>
+            </li>
+            <li class="clearfix">
+                <p class="par_p">中国-深圳-福田区</p>
+                <div class="par_p1">
+                    <p class="par_p1_i2">咨询电话：0755-27514166
+                    </p>
+                </div>
+                <p class="par_p2">总深圳市福田分部：<span>深圳市福田区深南中路3039号国际文化大厦1409-1410室</span></p>
+            </li>
+            <li class="clearfix">
+                <p class="par_p">中国-深圳-龙岗区</p>
+                <div class="par_p1">
+                    <p class="par_p1_i2">咨询电话：0755-36958262</p>
+                </div>
+                <p class="par_p2" id="do">深圳市龙岗分部：<span>深圳市龙岗区中心城天健现代城4栋2层商铺212—214</span></p>
+            </li>
+        </ul>
+        </div>
+    </div>
+    <div class="foot">
+        <div class="foot_m">
+            <p class="foot_p"><i>友情链接：</i><a>所百网络艺校  </a><a>所百网络艺校  </a><a>所百网络艺校  </a><a>所百网络艺校  </a><a>所百网络艺校  </a><a>所百网络艺校  </a></p>
+            <div>
+                <a class="foot_a"></a>
+                <a class="foot_a1"></a>
+                <a class="foot_a2"></a>
+                <a class="foot_a3"></a>
+                <a class="foot_a4"></a>
+            </div>
+        </div>
+    </div>
+    <div class="fix">
+        <a class="a_1"></a>
+        <a class="a_2"></a>
+        <a class="a_3"></a>
+        <a class="a_4"></a>
+        <a href="#01" class="a_5"></a>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>

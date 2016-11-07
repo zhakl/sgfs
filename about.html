@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/jquery1.42.min.js"></script>
+    <script type="text/javascript" src="js/jquery.Slide.2.1.1.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/base.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<!-- top --->
+<div class="header" id="01">
+    <div class="head_m clearfix">
+        <div class="logo">
+            <a href="#"><img src="images/logo.jpg" width="242" height="89" alt="logo"> </a>
+        </div>
+        <div class="ind_top">
+            <ul>
+                <li class="inli"><a class="active" href="index.html">首页</a></li>
+                <li class="inli"><a href="gk.html">学校概况</a></li>
+                <li class="inli"><a href="zhuanye.html">专业介绍</a></li>
+                <li class="inli"><a href="shizi.html">师资力量</a></li>
+                <li class="inli"><a href="about.html">联系我们</a></li>
+            </ul>
+            <span class="form">
+                <input type="text" class="indip" ><input type="button" class="indip1" value="搜索">
+            </span>
+        </div>
+    </div>
+</div>
+<!-- top --->
+
+<!--lunbo-->
+<div class="focusBox">
+    <ul class="pic">
+        <li style="background:url(images/b1.jpg);"><a href="#" ></a></li>
+        <li style="background:url(images/b2.jpg);"><a href="#" ></a></li>
+        <li style="background:url(images/b3.jpg);"><a href="#" ></a></li>
+    </ul>
+    <ul class="hd">
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+<script type="text/javascript">
+    /*鼠标移过，左右按钮显示*/
+    jQuery(".focusBox").hover(function(){ jQuery(this).find(".prev,.next").stop(true,true).fadeTo("show",0.2) },function(){ jQuery(this).find(".prev,.next").fadeOut() });
+    /*SuperSlide图片切换*/
+    jQuery(".focusBox").slide({ mainCell:".pic",effect:"fold", autoPlay:true, delayTime:600, trigger:"click"});
+</script>
+<!--lunbo-->
+<div class="jump">
+    <div class="jump_m">
+        <p class="jump_p2">
+            联系我们
+        </p>
+        <p class="jump_p3"> Contact us</p>
+    </div>
+</div>
+<div class="map"><img src="images/img16.jpg" /> </div>
+<div class="part7" >
+    <div class="part7_m">
+        <ul>
+            <li class="clearfix">
+                <p class="par1_p">中国-深圳-宝安区</p>
+                <div class="par1_p1">
+                    <p class="par1_p1_i2">咨询电话：</p>
+                    <p class="par1_p1_i3"> <span>0755-27514166</span><span>0755-27514266</span> <span>0755-27514366</span></p>
+                </div>
+                <p class="par1_p2">总部地址：<span>深圳市宝安21区宝安电视台后座4栋三-四楼</span></p>
+            </li>
+            <li class="clearfix">
+                <p class="par1_p">中国-深圳-龙岗区</p>
+                <div class="par1_p1">
+                    <p class="par1_p1_i2">咨询电话：</p>
+                    <p class="par1_p1_i3"> <span>0755-36850698</span></p>
+                </div>
+                <p class="par1_p2">深圳市龙岗分部：<span>深圳市龙岗区如意路349号-351号（深广分视）传媒艺
+                      考培训中心</span></p>
+            </li>
+            <li class="clearfix">
+                <p class="par1_p">中国-深圳-龙岗区</p>
+                <div class="par1_p1">
+                    <p class="par1_p1_i2">咨询电话：</p>
+                    <p class="par1_p1_i3"> <span>0755-36958262 </span></p>
+                </div>
+                <p class="par1_p2">深圳市龙岗分部：<span>深圳市龙岗区中心城天健现代城4栋2层商铺212—214</span></p>
+            </li>
+            <li class="clearfix">
+                <p class="par1_p">中国-深圳-福田区</p>
+                <div class="par1_p1">
+                    <p class="par1_p1_i2">咨询电话：</p>
+                    <p class="par1_p1_i3"> <span>0755-36851966</span></p>
+                </div>
+                <p class="par1_p2">深圳市福田分部：<span>深圳市福田区深南中路3039号国际文化大厦1409-1410室</span></p>
+            </li>
+            <li class="clearfix">
+                <p class="par1_p">中国-深圳-汕尾市</p>
+                <div class="par1_p1">
+                    <p class="par1_p1_i2">咨询电话：</p>
+                    <p class="par1_p1_i3"> <span>0660-3236236 </span><span>018023156236</span> </p>
+                </div>
+                <p class="par1_p2">汕尾市分部：<span>汕尾市城区大圆盘马思聪艺术中心三楼（深广分视）
+                       传媒艺考培训中心</span></p>
+            </li>
+            <li class="clearfix">
+                <p class="par1_p">中国-深圳-汕尾市</p>
+                <div class="par1_p1">
+                    <p class="par1_p1_i2">咨询电话：</p>
+                    <p class="par1_p1_i3"> <span>06608316022</span><span>18666036114</span> </p>
+                </div>
+                <p class="par1_p2">汕尾市海丰分部：<span>汕尾市海丰县城文天祥公园斜对面四楼（深广分视）传
+                       媒艺考培训中心</span></p>
+            </li>
+            <li class="clearfix">
+                <p class="par1_p">中国-深圳-梅州市</p>
+                <div class="par1_p1">
+                    <p class="par1_p1_i2">咨询电话：</p>
+                    <p class="par1_p1_i3"> <span>0753-2206886</span><span>13823835353</span></p>
+                </div>
+                <p class="par1_p2">梅州市分部：<span>梅州市梅江区顺梅步行街3楼B332号</span></p>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="foot">
+    <div class="foot_m">
+        <p class="foot_p"><i>友情链接：</i><a>所百网络艺校  </a><a>所百网络艺校  </a><a>所百网络艺校  </a><a>所百网络艺校  </a><a>所百网络艺校  </a><a>所百网络艺校  </a></p>
+        <div>
+            <a class="foot_a"></a>
+            <a class="foot_a1"></a>
+            <a class="foot_a2"></a>
+            <a class="foot_a3"></a>
+            <a class="foot_a4"></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
